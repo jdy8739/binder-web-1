@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  gap: 24px;
+}
+.wrapper .wrapper-text {
+  font-family: Pretendard;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+}
+.wrapper .wrapper-box {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=MyContent.module.css.map */

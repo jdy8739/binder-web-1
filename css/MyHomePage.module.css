@@ -1,0 +1,9 @@
+.flex-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.box-wrapper {
+  display: grid;
+  gap: 48px;
+}

@@ -1,0 +1,101 @@
+.card {
+  @extend %answer-card;
+}
+
+.answer {
+  padding: 24px 32px;
+  margin-top: 32px;
+
+  .answer-title {
+    margin-top: 28px;
+    span {
+      font-size: 20px;
+      font-weight: $font-bolder;
+      line-height: 28px;   
+    }
+    
+  }
+  
+  .answer-board {
+
+      margin-top: 8px;
+      span {
+        color: $primary;
+        font-size: 14px;
+        line-height: 20px;    
+    }
+  }
+
+  .answer-content {
+      margin-top: 24px;
+  }
+
+  .answer-tags {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    margin-top: 24px;
+    div {
+      align-self: center;
+      span {
+    
+      font-size: 14px;    
+      }
+    }
+  }
+
+}
+
+.comment {
+    border-top: 1px solid #ECECEC;
+  padding: 24px 32px;
+
+  .comment-header {
+    display:flex;
+    justify-content: space-between;
+    .comment-header-wrapper {
+      display:flex;
+      gap: 12px;
+      button {
+        display: flex;
+        gap: 4px;
+        //styleName: Body/body 2;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #6F6F6F;
+        svg {
+          align-self: center;
+
+        }
+      }
+    }
+
+    .report {
+      width: 48px;
+      height: 28px;
+      //styleName: Title/subhead 2-s;
+      font-family: Pretendard;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: -0.6px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+    }
+  }
+}
+
+.profile-card {
+  padding: 14px 16px;
+  border: 1px solid $gray-05;
+  border-radius: 8px;
+  background-color: $gray-02;
+}

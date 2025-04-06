@@ -1,0 +1,31 @@
+.button-wrapper {
+  border: 1px solid $primary;
+  border-radius: 8px;
+  background-color: $primary;
+  color: $white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: $font-bolder;
+  transition: all 0.2s;
+
+  &.lg {
+    width: 320px;
+    height: 54px;
+  }
+
+  &.sm {
+    width: 180px;
+    height: 56px;
+  }
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+
+  &:disabled {
+    @extend %button-gray;
+
+    cursor: not-allowed;
+  }
+}

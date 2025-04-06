@@ -1,0 +1,27 @@
+/* stylelint-disable no-descending-specificity */
+.subject-top-profile {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px;
+  border: 1px solid $gray-05;
+  border-radius: 8px;
+  background-color: $gray-02;
+
+  .tags {
+    display: flex;
+    gap: 6px;
+
+    > span {
+      height: 32px;
+      padding: 4px 8px;
+      border: 1px solid $primary;
+      border-radius: 8px;
+      color: $gray-10;
+      font-size: 14px;
+      font-weight: $font-bold;
+      line-height: 24px;
+    }
+  }
+}

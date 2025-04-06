@@ -1,0 +1,26 @@
+.wrapper {
+  position: relative;
+  border-radius: 8px;
+}
+.wrapper .navigator {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(0%, -50%);
+}
+.wrapper .navigator button {
+  position: absolute;
+  margin-top: -18px;
+  background: none;
+}
+.wrapper .navigator button:first-child {
+  left: -22px;
+}
+.wrapper .navigator button:last-child {
+  right: -22px;
+}
+.wrapper .indicator {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}/*# sourceMappingURL=Carousel.module.css.map */

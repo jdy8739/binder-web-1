@@ -1,0 +1,38 @@
+%footer-default {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: $gray-03;
+  color: $gray-15;
+  font-size: 12px;
+}
+
+%title-default {
+  color: $gray-13;
+  cursor: pointer;
+  font-weight: $font-bold;
+}
+
+%sign-form-title-default {
+  color: $gray-15;
+  font-size: 28px;
+  font-weight: $font-bolder;
+}
+
+%button-gray {
+  border-color: $gray-04;
+  background-color: $gray-04;
+  color: $gray-07;
+
+  &:hover {
+    border-color: $primary-light;
+    background-color: $white;
+    color: $primary-light;
+  }
+}
+
+%answer-card {
+  border: 1px solid $gray-05;
+  border-radius: 8px;
+  background-color: white;
+}

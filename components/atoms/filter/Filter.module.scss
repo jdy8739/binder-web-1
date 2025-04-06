@@ -1,0 +1,24 @@
+.wrapper {
+//     width: Hug (221px)px;
+// height: Hug (40px)px;
+        padding: 10px;
+        border-radius: 8px;
+        opacity: 0px;
+        border: 1px solid #DFDFDF;
+        height: 40px;
+    ul {
+        display: flex;
+        gap: 12px;
+        li {
+            display: flex;
+            gap: 4px;
+            font-family: Pretendard;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: -1px;
+            text-align: left;
+            color: #475067;
+        }
+    }
+}

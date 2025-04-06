@@ -1,0 +1,17 @@
+.subject-wrapper {
+  padding: 60px 20% 0;
+}
+.subject-wrapper .subject-top {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.subject-wrapper .subject-bottom {
+  min-height: 258px;
+  padding-bottom: 150px;
+}
+.subject-wrapper .subject-bottom .pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

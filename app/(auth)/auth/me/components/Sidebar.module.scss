@@ -1,0 +1,55 @@
+
+.sidebar-wrapper {
+    width: 180px;
+    height: 270px;
+    gap: 0px;
+    // border-radius: 8px 0px 0px 0px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+    border: 1px solid #DFDFDF;
+    .sidebar-button {
+        width: 180px;
+        height: 54px;
+        padding: 15px 20px 15px 20px;
+        gap: 10px;
+        opacity: 0px;
+        
+
+        > a {
+            gap: 0px;
+            opacity: 0px;
+            font-family: Pretendard;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+
+        }
+    }
+    
+    .sidebar-button-active {
+        width: 180px;
+        height: 54px;
+        padding: 15px 20px 15px 20px;
+        gap: 10px;
+        opacity: 0px;
+        background: #02B15233;
+        border: 1px solid #DFDFDF;
+        border-radius: 8px;
+        
+        > a {
+            gap: 0px;
+            opacity: 0px;
+            font-family: Pretendard;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+            color: #02B152;
+
+            
+        }
+    }
+}

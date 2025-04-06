@@ -1,0 +1,9 @@
+.select-wrapper {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.white-bg {
+  background-color: white;
+}

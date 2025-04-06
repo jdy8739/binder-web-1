@@ -1,0 +1,9 @@
+.link-option-wrapper {
+  display: flex;
+  height: 56px;
+  align-items: center;
+}
+.link-option-wrapper a {
+  width: 100%;
+  padding: 16px 20px;
+}

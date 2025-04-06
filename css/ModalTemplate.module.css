@@ -1,0 +1,51 @@
+.modal-template-wrapper {
+  display: flex;
+  width: 100;
+  height: 100%;
+  justify-content: center;
+  animation-duration: 0.3s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal-template-wrapper .modal-body {
+  animation-duration: 0.3s;
+}
+.modal-template-wrapper.opened {
+  animation-name: fade-in;
+}
+.modal-template-wrapper.opened .modal-body {
+  animation-name: scale-up;
+}
+.modal-template-wrapper.hanged {
+  animation: none;
+}
+.modal-template-wrapper.hanged .modal-body {
+  animation: none;
+}
+.modal-template-wrapper.closing {
+  animation-direction: reverse;
+  animation-name: fade-in;
+}
+.modal-template-wrapper.closing .modal-body {
+  animation-direction: reverse;
+  animation-name: scale-up;
+}
+
+@keyframes scale-up {
+  0% {
+    scale: 0.97;
+  }
+  66% {
+    scale: 1.03;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

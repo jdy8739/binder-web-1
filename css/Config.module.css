@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 40px;
+  display: grid;
+  gap: 48px;
+  border-radius: 8px;
+  border: 1px solid #DFDFDF;
+  opacity: 0px;
+  width: 1076px;
+}
+.wrapper .wrapper-top {
+  display: grid;
+  gap: 36px;
+}
+.wrapper .wrapper-top .title {
+  font-family: Pretendard;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+}

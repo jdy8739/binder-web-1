@@ -1,0 +1,16 @@
+.wrapper {
+  margin-top: 36px;
+  padding: 0px 320px 0px 320px;
+  gap: 24px;
+  opacity: 0px;
+  display: flex;
+  margin-bottom: 512px;
+}
+.wrapper .flex-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.wrapper .box-wrapper {
+  display: grid;
+  gap: 48px;
+}/*# sourceMappingURL=me.module.css.map */

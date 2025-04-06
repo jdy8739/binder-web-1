@@ -1,0 +1,25 @@
+.input-wrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  gap: 12px;
+}
+.input-wrapper [class*=input] {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background-color: inherit;
+}
+.input-wrapper input {
+  border: 1px solid #ddd;
+}
+.input-wrapper .label {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  letter-spacing: -0.3000000119px;
+  text-align: left;
+  color: #333333;
+}

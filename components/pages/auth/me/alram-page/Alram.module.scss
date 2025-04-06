@@ -1,0 +1,95 @@
+.wrapper {
+    display: grid;
+    gap: 24px;
+    width: 1076px;
+
+    .notice-all {
+        padding: 20px 36px 20px 36px;
+        gap: 49px;
+        border-radius: 8px;
+
+        background: $gray-04;
+
+        border: 1px solid $gray-06;
+        height: 64px;
+        width: 100%;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        span {
+            color: $primary;
+        }
+    }
+
+    .alram-container {
+        border-top: 1px solid #6F6F6F;
+    }
+
+    .filter-wrapper {
+        width: 212px;
+    }
+}
+.read {
+    background: #F7F7F7;
+
+}
+.alram-card {
+        height: 60px;
+        padding: 18px 20px 18px 20px;
+
+        justify-content: space-between;
+        display: flex;
+        border-bottom: 1px solid #DFDFDF;
+
+ 
+        .alram-content {
+            display: flex;
+            gap: 12px;
+            color: #434343;
+            &-read {
+                color: #A5A5A5;
+            }
+            font-family: Pretendard;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: -0.65px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+            .alram-read {
+                width: 8px;
+                height: 8px;
+                // margin-top: 2px;
+                margin-left: 2px;
+                border-radius: 90%;
+                align-self: center;
+                background: var(--catch-red, #FF3D00);
+
+                &-unread {
+                    background: #A5A5A5;
+
+                }
+            }
+
+        }
+
+        :last-child {
+            color: #A5A5A5;
+            font-family: Pretendard;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -1px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+        }
+}

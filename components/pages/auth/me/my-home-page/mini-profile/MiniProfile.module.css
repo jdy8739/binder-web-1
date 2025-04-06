@@ -1,0 +1,128 @@
+.profile-wrapper {
+  width: 498px;
+  height: 242px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  display: grid;
+}
+.profile-wrapper .profile {
+  width: 224px;
+  height: 128px;
+  gap: 20px;
+  opacity: 0px;
+  display: flex;
+}
+.profile-wrapper .profile .image {
+  width: 102px;
+  height: 100px;
+  position: relative;
+}
+.profile-wrapper .profile .image :first-child {
+  position: absolute;
+}
+.profile-wrapper .profile .image :last-child {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
+.profile-wrapper .profile .name-box {
+  width: 102px;
+  height: 128px;
+  padding: 10px 0px 10px 0px;
+  gap: 16px;
+  opacity: 0px;
+  display: grid;
+}
+.profile-wrapper .profile .name-box .nickname {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+}
+.profile-wrapper .profile .name-box .userstat {
+  display: flex;
+  gap: 6px;
+}
+.profile-wrapper .profile .name-box .userstat *:first-child {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #02B152;
+}
+.profile-wrapper .profile .name-box .userstat *:last-child {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #6F6F6F;
+}
+.profile-wrapper .profile .name-box .tag-list {
+  display: flex;
+  gap: 12px;
+}
+.profile-wrapper .profile .name-box .tag-list > p {
+  width: 48px;
+  height: 32px;
+  padding: 4px 8px 4px 8px;
+  gap: 6px;
+  border-radius: 8px;
+  border: 1px solid #02B152;
+  opacity: 0px;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #6F6F6F;
+}
+.profile-wrapper .profile-title {
+  width: 458px;
+  height: 54px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-wrapper .profile-title :first-child {
+  gap: 10px;
+  display: grid;
+}
+.profile-wrapper .profile-title :first-child :first-child {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+}
+.profile-wrapper .profile-title :first-child :last-child {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.6000000238px;
+  text-align: left;
+  color: #6F6F6F;
+}
+.profile-wrapper .profile-title button {
+  width: 48px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.6000000238px;
+  text-align: center;
+  align-self: end;
+}/*# sourceMappingURL=MiniProfile.module.css.map */

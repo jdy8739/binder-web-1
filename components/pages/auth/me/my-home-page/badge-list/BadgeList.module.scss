@@ -1,0 +1,85 @@
+
+
+.badge-wrapper {
+    width: 558px;
+    height: 242px;
+    padding: 28px 20px 28px 20px;
+    gap: 32px;
+    border-radius: 8px;
+
+    opacity: 0px;
+    border: 1px solid #DFDFDF;
+    display: grid;
+
+    .wrapper-top {
+        height: 50px;
+        display: flex;
+        gap: 12px;
+
+        :nth-child(2) {
+            height: 26px;
+            padding: 3px 8px 3px 8px;
+            gap: 6px;
+            border-radius: 16px;
+            border: 1px solid $primary;
+            //styleName: Body/body 1;
+            font-family: Pretendard;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: -0.6000000238418579px;
+            text-align: left;   
+            color: $primary;
+            align-self: center;
+        }
+
+        :nth-child(3) {
+            //styleName: Body/body 1;
+            font-family: Pretendard;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: -0.6000000238418579px;
+            text-align: left;
+            color: #6F6F6F;
+            align-self: center;
+
+        }
+    }
+
+    .wrapper-bottom {
+        display:grid;
+        gap:20px;
+        .badge-list {
+            display:flex;
+            gap: 20px;
+        }
+
+        :last-child {
+            //styleName: Title/subhead 3-s;
+            font-family: Pretendard;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.6000000238418579px;
+            text-align: center;
+            color: $primary;
+
+        }
+    }
+}
+
+.badge {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #DC9E00DE;
+    
+}
+
+.badge2 {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background: #DC9E00DE;
+}
